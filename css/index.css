@@ -1,0 +1,557 @@
+
+
+/*公共部分*/
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		ul li{
+			list-style: none;
+		}
+		a{
+			text-decoration: none;
+		}
+	/*js插件自定义部分*/
+		#fp-nav ul li a span,
+		.fp-slidesNav ul li a span{
+			border: 1px solid #6D745D;
+		}
+		#fp-nav ul li a.active span,
+		.fp-slidesNav ul li a.active span{
+			background: #9F8E50;
+		}
+	/*section2-4中的注册下载部分*/
+		.s_xiazai{
+			width: 125px;
+			height: 300px;
+			position: absolute;
+			top: 50%;
+			right: -10%;
+			margin-top: -150px;
+			/*background-color: red;*/
+			background-image: url(../images/sec.png);
+			background-size: cover;
+			float: right;
+		}
+		.s_xiazai a{
+			width: 30px;
+			height: 45px;
+			/*border: 1px solid red;*/
+			margin-top: 15px;
+			display: block;
+			margin-left: 48px;
+			cursor: pointer;
+		}
+		.s_xiazai a:nth-child(1){
+			margin-top: 20px;
+		}
+		.s_xiazai a:nth-child(2){
+			cursor: pointer;
+		}
+		.s_xiazai a:nth-child(4){
+			height: 20px;
+		}
+		.s_xiazai a:nth-child(5){
+			margin-top: 2px;
+			width: 70px;
+			margin-left: 28px;
+		}
+
+
+/*section1*/
+		.section1 {
+			background-image: url(../images/sec1_bg.jpg);
+			background-size: cover;
+			background-position: 0 50px;
+			position: relative;
+			overflow: auto;
+		}
+	/*section1头部*/
+		#s1 .headf {
+			width: 100%;
+			background-color: #FBFBFB;
+			overflow: hidden;
+		}
+		#s1 .head{
+			width: 1400px;
+			margin: 0 auto;
+		}
+		#s1 .head img{
+			height: 50px;
+			float: left;
+		}
+		#s1 .head img:first-child{
+			margin-left: 100px;
+			/*margin-right: 30px;*/
+		}
+		#s1 .head img:nth-child(2){
+			margin-right: 20px;
+		}
+		#s1 .head ul{
+			height: 48px;
+			float: left;
+			margin-left: 330px;
+		}
+		#s1 .head ul li{
+			float: left;
+			list-style: none;
+			line-height: 48px;
+			padding-right: 15px;
+			padding-left: 15px;
+		}
+		#s1 .head ul li:hover{
+			background-color: #F1F1F1;
+			border-bottom: 2px solid #E94A37;
+		}
+		#s1 .head ul li{
+			color: #E94A37;
+			text-decoration: none;
+			font-size: 12px;
+		}
+		#s1 .head ul a .a_black{
+			color: black;
+		}
+	/*section1中的注册领奖*/
+		#s1 .s1_denglu{
+			width: 700px;
+			height: 275px;
+			position: absolute;
+			bottom: 20px;
+			left: 400px;
+			/*margin-left: -350px;*/
+			background-image: url(../images/sec1_dl1.png);
+			background-size: cover;
+		}
+	/*个性注册和手机注册*/
+		#s1 .s1_denglu .dl_1{
+			margin-left: 20px;
+		}
+		#s1 .s1_denglu .dl_1 span{
+			width: 90px;
+			display: inline-block;
+			height: 24px;
+			font-size: 13px;
+			color: white;
+			margin-top: 60px;
+			background-color: #2E5472;
+			line-height: 24px;
+			text-align: center;
+			border: 1px solid #2E5472;
+			cursor: pointer;
+		}
+		#s1 .s1_denglu .dl_1 span:first-child{
+			background-color: #38A4D6;
+		}
+	/*表单1*/
+		#s1 .s1_denglu .formhidden {
+			display: none;
+			border: 1px solid red;
+		}
+		#s1 .s1_denglu form .form1_inner{
+			border: 1px solid #514111;
+			width: 180px;
+			height: 24px;
+			margin-left: 20px;
+			margin-top: 10px;
+			line-height: 24px;
+			background-color: white;
+		}
+		#s1 .s1_denglu form .form1_inner img{
+			float: left;
+			margin-right: 5px;
+			margin-left: 5px;
+		}
+		#s1 .s1_denglu form .form1_inner .s1_icon2{
+			margin-top: 5px;
+		}
+		#s1 .s1_denglu form .form1_inner input{
+			border: none;
+			outline: none;
+			height: 18px;
+			margin-top: 5px;
+			float: left;
+			width: 140px;
+		}
+		#s1 .s1_denglu form .form1_inner input:first-child{
+			margin-left: 33px;
+		}
+		#s1 .s1_denglu #form1  p{
+			margin-left: 20px;
+			margin-top: 10px;
+		}
+		#s1 .s1_denglu #form1  p span{
+			font-size: 12px;
+			color: #5E413C;
+		}
+	/*表单2  默认隐藏*/
+		#s1 .s1_denglu form .form2_inner{
+			border: 1px solid #514111;
+			width: 180px;
+			height: 24px;
+			margin-left: 20px;
+			margin-top: 5px;
+			line-height: 24px;
+			background-color: white;
+		}
+		#s1 .s1_denglu form .form2_inner img{
+			float: left;
+			margin-right: 5px;
+			margin-left: 5px;
+			width: 18px;
+		}
+		#s1 .s1_denglu form .form2_inner .shouji{
+			height: 25px;
+		}
+		#s1 .s1_denglu form .form2_inner .dx{
+			height: 14px;
+			margin-top: 5px;
+		}
+		#s1 .s1_denglu form .form2_inner .mima{
+			height: 15px;
+			margin-top: 5px;
+		}
+		#s1 .s1_denglu form .form2_inner input{
+			border: none;
+			outline: none;
+			height: 18px;
+			margin-top: 3px;
+			float: left;
+			width: 130px;
+		}
+		#s1 .s1_denglu form .form2_inner .dxyzm{
+			width: 70px;
+		}
+		#s1 .s1_denglu form .form2_inner span{
+			font-size: 13px;
+			background-color: #07AC87;
+			display: inline-block;
+			height: 24px;
+			color: white;
+			float: right;
+			cursor: pointer;
+		}
+		#s1 .s1_denglu form .form2_inner input:first-child{
+			margin-left: 28px;
+		}
+		#s1 .s1_denglu #form2  p{
+			margin-left: 20px;
+			/*margin-top: -5px;*/
+		}
+		#s1 .s1_denglu form  p span{
+			font-size: 12px;
+			color: #5E413C;
+		}
+	/*三个div样式的按钮*/
+		#s1 .s1_denglu .btn{
+			color: white;
+			text-align: center;
+			width: 180px;
+			height: 36px;
+			font-size: 16px;
+			line-height: 36px;
+			position: absolute;
+			bottom: 10px;
+			cursor: pointer;
+		}
+		#s1 .s1_denglu #btn_zczh{
+			background-color: #F68364;
+			margin-left: 20px;
+		}
+		#s1 .s1_denglu #btn_lqlb{
+			background-color: #38A4D6;
+			margin-left: 260px;
+		}
+		#s1 .s1_denglu #btn_xzyx{
+			background-color: #38A4D6;
+			margin-left: 497px;
+		}
+	/*section1的注册下载部分*/
+		.s1_xiazai{
+			width: 125px;
+			height: 300px;
+			position: absolute;
+			top: 50%;
+			right: 8px;
+			margin-top: -150px;
+			/*background-color: red;*/
+			background-image: url(../images/sec.png);
+			background-size: cover;
+			float: right;
+		}
+		 .s1_xiazai a{
+			width: 30px;
+			height: 45px;
+			/*border: 1px solid red;*/
+			margin-top: 15px;
+			display: block;
+			margin-left: 48px;
+			cursor: pointer;
+		}
+		 .s1_xiazai a:nth-child(1){
+			margin-top: 20px;
+		}
+		 .s1_xiazai a:nth-child(2){
+			cursor: pointer;
+		}
+		 .s1_xiazai a:nth-child(4){
+			height: 20px;
+		}
+		.s1_xiazai a:nth-child(5){
+			margin-top: 2px;
+			width: 70px;
+			margin-left: 28px;
+		}	
+
+/*section2*/
+		.section2 { 
+			background-image: url(../images/sec2_bg.png);
+			background-size: cover;
+			z-index: -1000;
+		}
+	/*section2和section4 的video背景设置*/
+		.section2 video,.section4 video{
+            right: 0px;
+            bottom: 0px;
+            /*min-width: 100%;
+            min-height: 100%;*/
+            height: auto;
+            width: auto;
+            position: absolute;
+            z-index: -100;
+        }
+    /*fullpage的animate效果*/
+        .section2 .sec2_dong{
+        	background-image: url(../images/sec2_guofeng.png);
+			background-size: cover;
+        	width: 150px;
+        	height: 100%;
+        	position: relative;
+        	left: -10%;
+        }
+    
+/*section4*/
+		.section4 { 
+			background-image: url(../images/sec4_bg.png);
+			background-size: cover;
+			z-index: -1000;
+		}
+	/*fullpage的animate效果*/
+		.section4 .sec4_dong{
+        	background-image: url(../images/sec4_qinggong.png);
+			background-size: cover;
+        	width: 150px;
+        	height: 100%;
+        	position: relative;
+        	left: -10%;
+        }
+
+/*section3*/
+		.section3 { 
+			background-image: url(../images/sec3_bg.jpg);
+			background-size: cover;
+		}
+	/*fullpage的animate效果*/
+		.section3 .sec3_dong{
+        	background-image: url(../images/sec3_13.png);
+			background-size: cover;
+        	width: 150px;
+        	height: 100%;
+        	position: relative;
+        	left: -10%;
+        	float: left;
+        }
+    /*fadein+fadeout*/
+        .section3 .fadeI{
+        	position: absolute;
+        	left: 220px;
+        	float: left;
+        	overflow: hidden;
+        }
+        .section3 .fadeI img{
+        	display: none;
+        }
+        .section3 .fadeI img:first-child{
+        	width: 340px;
+        	height: 370px;
+        }
+        .section3 .fadeI .sec3_video{
+        	width: 137px;
+        	height: 137px;
+        	margin-left: 50px;
+        	margin-top: 50px;
+        	cursor: pointer;
+        }
+
+/*section5*/
+		.section5{
+			background-color: #1C2429;
+			position: relative;
+		}
+		.section5 .s5_peizhi{
+			margin: 0 auto;
+			margin-top: 120px;
+			width: 1100px;
+			overflow: hidden;
+		}
+	/*左边*/
+		.section5 .s5_peizhi .peizhi_left{
+			width: 508px;
+			height: 320px;
+			/*background-color: red;*/
+			float: left;
+		}
+		.section5 .s5_peizhi .peizhi_left .left_p1{
+			overflow: hidden;
+		}
+		.section5 .s5_peizhi .peizhi_left p img{
+			height: 35px;
+			float: left;
+		}
+		.section5 .s5_peizhi .peizhi_left p span{
+			font-size: 25px;
+			float: left;
+			margin-left: 20px;
+			color: #A6A6A6;
+		}
+		.section5 .s5_peizhi .peizhi_left ul{
+			overflow: hidden;
+			margin-top: 20px;
+		}
+		.section5 .s5_peizhi .peizhi_left ul a li{
+			color: #E0E0E0;
+			float: left;
+			padding-right: 20px;
+			padding-left: 20px;
+			padding-bottom: 10px;
+			padding-top: 10px;
+			color: 19px;
+		}
+		.section5 .s5_peizhi .peizhi_left ul a li:hover{
+			text-decoration: underline;
+			background-color: #464443;
+		}
+		.section5 .s5_peizhi .peizhi_left hr{
+			height: 1px;
+			border: none;
+			background-color: #575351;
+		}
+		.section5 .s5_peizhi .peizhi_left p{
+			color: #989492;
+			font-size: 17px;
+			margin-top: 5px;
+		}
+		.section5 .s5_peizhi .peizhi_left .left_p2{
+			margin-top: 10px;
+		}
+	/*右边*/
+		.section5 .s5_peizhi .peizhi_right{
+			width: 508px;
+			height: 320px;
+			float: right;
+		}
+		.section5 .s5_peizhi .peizhi_right .left_p1{
+			overflow: hidden;
+		}
+		.section5 .s5_peizhi .peizhi_right p img{
+			height: 35px;
+			float: left;
+		}
+		.section5 .s5_peizhi .peizhi_right p span{
+			font-size: 25px;
+			float: left;
+			margin-left: 20px;
+			color: #A6A6A6;
+		}
+		.section5 .s5_peizhi .peizhi_right ul{
+			overflow: hidden;
+			margin-top: 20px;
+		}
+		.section5 .s5_peizhi .peizhi_right ul a li{
+			color: #E0E0E0;
+			float: left;
+			padding-right: 20px;
+			padding-left: 20px;
+			padding-bottom: 10px;
+			padding-top: 10px;
+			color: 19px;
+		}
+		.section5 .s5_peizhi .peizhi_right ul a li:hover{
+			text-decoration: underline;
+			background-color: #464443;
+		}
+		.section5 .s5_peizhi .peizhi_right hr{
+			height: 1px;
+			border: none;
+			background-color: #575351;
+		}
+		.section5 .s5_peizhi .peizhi_right p{
+			color: #989492;
+			font-size: 17px;
+			margin-top: 5px;
+		}
+		.section5 .s5_peizhi .peizhi_right .left_p2{
+			margin-top: 10px;
+		}
+	/*底部*/
+		.section5 .s5_foot{
+			margin-left: 350px;
+			margin-top: 100px;
+			bottom: 50px;
+			overflow: hidden;
+		}
+		.section5 .s5_foot img,.section5 .s5_foot span{
+			cursor: pointer;
+		}
+		.section5 .s5_foot .s5_foot_jinshan{
+			overflow: hidden;
+			color: #555555;
+			overflow: hidden;
+		}
+		.section5 .s5_foot .s5_foot_jinshan img{
+			height: 45px;
+			float: left;
+			margin-right: 30px;
+		}
+		.section5 .s5_foot .s5_foot_jinshan span{
+			font-size: 12px;
+			color: #555555;
+			/*margin-top: 8px;
+			display: inline-block;*/
+		}
+		.section5 .s5_foot .s5_foot_dizhi p{
+			font-size: 8px;
+			margin-top: 5px;
+			color: #555555;
+			position: relative;
+		}
+		.section5 .s5_foot .s5_foot_dizhi p img{
+			height: 25px;
+			position:absolute; 
+			top: -5px;
+		}
+		.section5 .s5_foot .s5_foot_kexing{
+			margin-top: 10px;
+			overflow: hidden;
+		}
+		.section5 .s5_foot .s5_foot_kexing img{
+			height: 40px;
+			float: left;
+		}
+		.section5 .s5_foot .s5_foot_kexing span{
+			font-size: 8px;
+			margin-top: 5px;
+			color: #555555;
+			cursor: auto;
+		}
+		.section5 .s5_foot .s5_foot_kexing p{
+			font-size: 8px;
+			margin-top: 5px;
+			margin-top: 0;
+			color: #555555;
+		}
+		.section5 .s5_foot .s5_foot_kexing p span{
+			cursor: pointer;
+		}
+		.section5 .s5_foot .s5_foot_kexing p .s5_col_red{
+			color: #CC0E2B;
+		}
